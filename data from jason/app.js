@@ -3,6 +3,7 @@ document.getElementById('button2').addEventListener('click', loadCustomers);
 
 
 function loadCustomer(e) {
+    //creating xhr object
     const xhr = new XMLHttpRequest();
 
     xhr.open('GET', 'customer.json', true);
