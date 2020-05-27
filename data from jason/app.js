@@ -5,7 +5,7 @@ document.getElementById('button2').addEventListener('click', loadCustomers);
 function loadCustomer(e) {
     const xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'https://api.thedogapi.com/v1/images/search', true);
+    xhr.open('GET', 'customer.json', true);
     
     xhr.onload = function() {
         if(this.status === 200) {
@@ -15,7 +15,7 @@ function loadCustomer(e) {
             console.log(customer)
             const output =  `
             <ul>
-             <li>ID: ${customer.url}</li>
+             <li>ID: ${customer.id}</li>
              <li>Name: ${customer.name}</li>
              <li>company: ${customer.company}</li>
              <li>phone: ${customer.phone}</li>
