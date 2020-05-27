@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name":"oussama",
+        "company":"spaceX",
+        "phone": "2125555555"
+    },
+    {
+        "id": 2,
+        "name":"otman",
+        "company":"nasa",
+        "phone": "2125544675"
+    },
+    {
+        "id": 3,
+        "name":"ayoub",
+        "company":"madhouse",
+        "phone": "2123456787"
+    }
+  ]
